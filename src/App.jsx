@@ -7,6 +7,7 @@ function App() {
   const [selectedGenre, setSelectedGenre] = useState("");
   const [selectedRating, setSelectedRating] = useState("");
   const [selectedRuntime, setSelectedRuntime] = useState("");
+  const [selectedYear, setSelectedYear] = useState("");
   const [sortBy, setSortBy] = useState("");
   const [error, setError] = useState(null);
 
@@ -89,7 +90,8 @@ function App() {
       (!searchTerm || movie.Title.toLowerCase().includes(searchTerm.toLowerCase())) &&
       (!selectedGenre || (movie.Genre && movie.Genre.includes(selectedGenre))) &&
       (!selectedRating || imdbRating >= parseFloat(selectedRating)) &&
-      (!selectedRuntime || runtimeMinutes <= parseInt(selectedRuntime))
+      (!selectedRuntime || runtimeMinutes <= parseInt(selectedRuntime)) &&
+      (!selectedYear || movie.Year === selectedYear)
     );
   });
 
@@ -164,6 +166,13 @@ function App() {
           <option value="90">Under 1.5 hours</option>
           <option value="60">Under 1 hour</option>
         </select>
+
+        <input
+          type="text"
+          placeholder="Year"
+          value={selectedYear}
+          onChange={(e) => setSelectedYear(e.target.value)}
+        />
 
         <select onChange={(e) => setSortBy(e.target.value)}>
           <option value="">Sort By</option>
