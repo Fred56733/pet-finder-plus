@@ -28,7 +28,8 @@ function App() {
     const searchTerms = [
       "star", "batman", "avengers", "matrix", "jurassic", "spider", "lord", "harry",
       "fast", "furious", "mission", "terminator", "hobbit", "godzilla", "transformers",
-      "superman", "wonder", "deadpool", "doctor", "x-men"
+      "superman", "wonder", "deadpool", "doctor", "x-men", "hunger", "pirates",
+      "gladiator", "titanic", "interstellar", "joker", "gravity", "avatar",
     ];
 
     const movieRequests = searchTerms.map(term =>
