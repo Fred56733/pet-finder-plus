@@ -1,31 +1,29 @@
-# Web Development Project 5 - *Name of App Here*
+# Web Development Project 5 - *Movie Finder Plus*
 
-Submitted by: **Your Name Here**
+Submitted by: **Frederick DeBiase**
 
-This web app: **insert description**
+This web app: **Movie Finder Plus lets you search, filter, and explore detailed movie information. Find films by title, genre, rating, all in one place!**
 
-Time spent: **X** hours spent in total
+Time spent: **6** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **The list displays a list of data fetched using an API call**
-- [ ] **Data uses the useEffect React hook and async/await syntax**
-- [ ] **The app dashboard includes at least three summary statistics about the data such as**
-  - [ ] *insert details*
-- [ ] **A search bar allows the user to search for an item in the fetched data**
-- [ ] **Multiple different filters (2+) allow the user to filter items in the database by specified categories**
+- [x] **The list displays a list of data fetched using an API call**
+- [x] **Data uses the useEffect React hook and async/await syntax**
+- [x] **The app dashboard includes at least three summary statistics about the data such as**
+  - [x] *Total movies*
+  - [x] *Average IMDb Rating*
+  - [x] *Genre Distribution*
+- [x] **A search bar allows the user to search for an item in the fetched data**
+- [x] **Multiple different filters (2+) allow the user to filter items in the database by specified categories**
 
 The following **optional** features are implemented:
 
-- [ ] Multiple filters can be applied simultaneously
-- [ ] Filters use different input types such as a text input, a selection, or a slider
-- [ ] The user can enter specific bounds for filter values
-
-The following **additional** features are implemented:
-
-* [ ] List anything else that you added to improve the site's functionality!
+- [x] Multiple filters can be applied simultaneously
+- [x] Filters use different input types such as a text input, a selection, or a slider
+- [x] The user can enter specific bounds for filter values
 
 ## Video Walkthrough
 
@@ -42,11 +40,11 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Biggest challenge was finding an api that would meet all of the project requirements then doing the research within the documentation for each to make sure that they would give us the needed data.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2025] [Frederick DeBiase]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
